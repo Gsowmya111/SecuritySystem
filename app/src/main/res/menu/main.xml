@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item  android:id="@+id/item1"
+        android:title="Setting"/>
+
+	<item  android:id="@+id/item2"
+        android:title="MSTS"/>
+   
+
+
+    
+</menu>

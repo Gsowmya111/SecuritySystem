@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="72dp"
+            android:id="@+id/tv"
+            android:layout_weight="0.99"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:text="Activate Security System with Siren/Without Siren"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tv1"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            tools:gravity="center_vertical" />
+
+        <ToggleButton
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tb"
+            android:layout_weight="1"
+            android:layout_alignBottom="@+id/toggleButton1"
+            android:textOff="Off"
+            android:textOn="On"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:text="Deactivate"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/deactivate"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:text="Store Number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sn"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:text="Store Other Number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/son"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:text="Clear Number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cn"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:text="Change Password"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/cp"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:text="Memory Status"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/msts"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Restore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/rst"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:text="Door Alert Beep"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dab"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Status"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/sts"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:text="Signal Strength"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ss"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:text="Version"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ver"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+        <Button
+            android:text="Save"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/save"
+            android:layout_weight="1"
+            android:layout_margin="2dp" />
+
+    </LinearLayout>
+</LinearLayout>

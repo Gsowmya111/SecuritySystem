@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:id="@+id/mno"
+        android:hint="Mobile Nuber"
+
+        android:gravity="center_vertical|center" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:id="@+id/pwd"
+        android:hint="Password"
+        android:inputType="number"
+        android:maxLength="4"
+
+        android:gravity="center_vertical|center" />
+
+
+
+    <Button
+        android:text="Save"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save" />
+</LinearLayout>
